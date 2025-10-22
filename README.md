@@ -7,7 +7,14 @@ This project was developed in Python 3 using a combination of Google Colab and V
 
 ## Documentation Map
 ```text
-
+DS4002-Project-2/
+│
+├── Data/
+├── Output/
+├── Scripts/
+│
+├── LICENSE.txt
+└── README.md
 ```
 
 ## Instructions for Reproducibility 
