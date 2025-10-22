@@ -10,7 +10,47 @@ This project was developed in Python 3 using a combination of Google Colab and V
 DS4002-Project-2/
 │
 ├── Data/
+│   │
+│   ├── Dictionaries/
+│   │   ├── HD2024_dict.xlsx
+│   │   ├── adm2021.xlsx
+│   │   ├── adm2022.xlsx
+│   │   ├── adm2023.xlsx
+│   │   └── ~$adm2023.xlsx
+│   │
+│   ├── HD2023.csv
+│   ├── adm2014.csv
+│   ├── adm2014_rv.csv
+│   ├── adm2015.csv
+│   ├── adm2015_rv.csv
+│   ├── adm2016.csv
+│   ├── adm2016_rv.csv
+│   ├── adm2017.csv
+│   ├── adm2017_rv.csv
+│   ├── adm2018.csv
+│   ├── adm2018_rv.csv
+│   ├── adm2019.csv
+│   ├── adm2019_rv.csv
+│   ├── adm2020.csv
+│   ├── adm2020_rv.csv
+│   ├── adm2021.csv
+│   ├── adm2021_rv.csv
+│   ├── adm2022.csv
+│   ├── adm2022_rv.csv
+│   ├── adm2023.csv
+│   ├── combined_admissions_characteristics.csv
+│   ├── hd2014.csv
+│   ├── hd2015.csv
+│   ├── hd2016.csv
+│   ├── hd2017.csv
+│   ├── hd2018.csv
+│   ├── hd2019.csv
+│   ├── hd2020.csv
+│   ├── hd2021.csv
+│   └── hd2022.csv
+│
 ├── Output/
+│
 ├── Scripts/
 │
 ├── LICENSE.txt
