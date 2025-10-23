@@ -14,11 +14,10 @@ IPEDS data are public domain materials under U.S. Government Work status. They a
 ## Data Dictionary
 
 A partial data dictionary can be found at:
-
 [https://myuva-my.sharepoint.com/:w:/g/personal/htn9hj_virginia_edu/EUfPWumAh45Mn94s3wUH02YBZE7mZRWQt09m84uChxkYfg?e=FzNy2y](https://myuva-my.sharepoint.com/:w:/g/personal/htn9hj_virginia_edu/EUfPWumAh45Mn94s3wUH02YBZE7mZRWQt09m84uChxkYfg?e=acPSpy)
 
 Files containing full descriptions and dictionaries of data are located in:
-https://github.com/Raj6881/DS4002-Project-2/tree/main/Data/Dictionaries
+[https://github.com/Raj6881/DS4002-Project-2/tree/main/Data/Dictionaries](https://github.com/Raj6881/DS4002-Project-2/tree/main/Data/Dictionaries)
 
 ---
 
