@@ -37,6 +37,7 @@ We investigated how the importance and prevalence of different admissions factor
 
 ## Exploratory Data Plots
 [Figure 1: Trends in Admission Considerations Over Time](https://github.com/Raj6881/DS4002-Project-2/blob/main/Output/admcon_trends_subplot.png)
+
 [Figure 2: Effect of Control Type of University on Test Score Criteria](https://github.com/Raj6881/DS4002-Project-2/blob/main/Output/controlVsTestScores.png)
 
 ---
