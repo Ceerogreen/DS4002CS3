@@ -3,7 +3,7 @@
 This repository contains all files and documentation for our analysis of how U.S. university admissions criteria have shifted from 2014–2023, particularly in response to the COVID-19 pandemic. It includes data preprocessing scripts, merged IPEDS Admissions (ADM) and Institutional Characteristics (HD) datasets, exploratory data analysis visuals, and logistic regression modeling notebooks used to quantify post-pandemic changes in admissions priorities. Supporting materials such as data dictionaries, references, and visual outputs are organized in dedicated folders for clarity and reproducibility.
 
 ## Software and Platform
-This project was developed in Python 3 using a combination of Google Colab and Visual Studio Code for data analysis and model development. Core libraries include pandas and numpy for data cleaning and manipulation, matplotlib and seaborn for visualization, and statsmodels and scikit-learn for logistic regression modeling and evaluation. Both environments ensured reproducibility and flexibility, with Colab supporting collaborative work and VS Code used for local testing and refinement.
+This project was developed in Python 3 using a combination of Google Colab and Visual Studio Code for data analysis and model development. Core libraries include pandas and numpy for data cleaning and manipulation, matplotlib and seaborn for visualization, and statsmodels and scikit-learn for logistic regression modeling and evaluation. Both environments ensured reproducibility and flexibility, with Colab supporting collaborative work and VS Code used for local testing and refinement. Overleaf, an online LaTeX editor, was used for the creation of DS4002_Project_2_Logit_Outputs.pdf.
 
 ## Documentation Map
 ```text
@@ -58,12 +58,6 @@ DS4002-Project-2/
 ```
 
 ## Instructions for Reproducibility 
-1. Step 1: Clone the Repository
-    Clone the repository to your local device or open it directly in Google Colab.
-2. Download the Clean Data in the Data file to your local machine and replace the path file name in the script
-3. Execute descriptive_graphs2.ipynb to reproduce the entire analysis pipeline.
-  This master notebook will automatically:
-    Import and clean the IPEDS data (ADM + HD datasets).
-    Merge and preprocess institutional-level variables.
-    Fit the logistic regression models for each admissions criterion.
-    Generate all output files, including figures, tables, and cleaned data.
+1. Clone the Repository: Create a local copy of the repository, or access it through the GitHub extension in VS Code
+2. Run the 00_Run file: Run the 00_Run script in the Scripts folder. This will run all other scripts in the folder, and should take around 30 seconds.
+3. Compile the Tex files: Using a Tex editor such as Overleaf, use the DS4002_Project_2_Logit_Outputs.Tex file (with the other Tex files as inputs) to produce DS4002_Project_2_Logit_Outputs.pdf, an easy visual file of the Logit regression output tables. 
