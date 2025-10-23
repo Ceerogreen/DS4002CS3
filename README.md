@@ -61,7 +61,7 @@ DS4002-Project-2/
 1. Step 1: Clone the Repository
     Clone the repository to your local device or open it directly in Google Colab.
 2. Download the Clean Data in the Data file to your local machine and replace the path file name in the script
-3. Execute 00_Run.ipynb to reproduce the entire analysis pipeline.
+3. Execute (insert script name) to reproduce the entire analysis pipeline.
   This master notebook will automatically:
     Import and clean the IPEDS data (ADM + HD datasets).
     Merge and preprocess institutional-level variables.
