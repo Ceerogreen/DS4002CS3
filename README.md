@@ -10,51 +10,32 @@ This project was developed in Python 3 using a combination of Google Colab and V
 DS4002-Project-2/
 │
 ├── Data/
-│   │
-│   ├── Dictionaries/
-│   │   ├── HD2024_dict.xlsx
-│   │   ├── adm2021.xlsx
-│   │   ├── adm2022.xlsx
-│   │   ├── adm2023.xlsx
-│   │   └── ~$adm2023.xlsx
-│   │
-│   ├── HD2023.csv
-│   ├── adm2014.csv
-│   ├── adm2014_rv.csv
-│   ├── adm2015.csv
-│   ├── adm2015_rv.csv
-│   ├── adm2016.csv
-│   ├── adm2016_rv.csv
-│   ├── adm2017.csv
-│   ├── adm2017_rv.csv
-│   ├── adm2018.csv
-│   ├── adm2018_rv.csv
-│   ├── adm2019.csv
-│   ├── adm2019_rv.csv
-│   ├── adm2020.csv
-│   ├── adm2020_rv.csv
-│   ├── adm2021.csv
-│   ├── adm2021_rv.csv
-│   ├── adm2022.csv
-│   ├── adm2022_rv.csv
-│   ├── adm2023.csv
-│   ├── combined_admissions_characteristics.csv
-│   ├── hd2014.csv
-│   ├── hd2015.csv
-│   ├── hd2016.csv
-│   ├── hd2017.csv
-│   ├── hd2018.csv
-│   ├── hd2019.csv
-│   ├── hd2020.csv
-│   ├── hd2021.csv
-│   └── hd2022.csv
+│   ├── ADM2014-2023/               # Yearly raw admissions CSVs (IPEDS ADM files)
+│   ├── HD2014-2023/                # Institutional characteristics datasets (IPEDS HD files)
+│   ├── Dictionaries/               # IPEDS codebooks & variable description files
+│   ├── Cleaned/                    # Processed and merged datasets ready for analysis
+│   └── Data Instructions.txt       # Download links and instructions for raw data
 │
-├── Output/
+├── Notebooks/
+│   ├── 00_Run.ipynb                # Master notebook that executes the full pipeline
+│   ├── 01_Data_Cleaning.ipynb      # Data import, cleaning & harmonization
+│   ├── 02_Merging.ipynb            # Join ADM and HD datasets via UNITID+year
+│   ├── 03_Logit_Model.ipynb        # Logistic regression modeling of admissions criteria
+│   └── 04_Visualizations.ipynb     # Trend, coefficient, and summary visualizations
 │
-├── Scripts/
+├── Results/
+│   ├── admcon_trends_subplot.png   # Visualization of admissions criteria trends
+│   ├── satpct_trends_control.png   # SAT/ACT requirement trends by institution control
+│   ├── coefficients_summary.csv    # Output of logit regression models (coefficients, p-values)
+│   └── cleaned_admissions.csv      # Final cleaned/merged dataset used for modeling
 │
-├── LICENSE.txt
-└── README.md
+├── Docs/
+│   ├── AnalysisPlan.pdf            # Project plan, hypothesis, methodology document
+│   ├── References.txt              # List of sources and citations used in project
+│   └── README.md                   # This file (repository overview)
+│
+└── requirements.txt                 # Python packages required to reproduce the analysis
+
 ```
 
 ## Instructions for Reproducibility 
